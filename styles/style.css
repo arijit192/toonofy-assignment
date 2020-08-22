@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html {
+  background: #4da1fa;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 85.93%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header div {
+  flex: 1;
+}
+.header div img {
+  width: 224.5px;
+  height: 45.25px;
+  padding-top: 1.95vw;
+}
+.navlinks {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+.navlinks a {
+  text-align: center;
+  text-decoration: none;
+  color: #0052aa;
+  font: normal normal normal Segoe UI;
+}
+.navlinks a:hover {
+  color: white;
+}
+.headline {
+  width: 64.1vw;
+  text-align: center;
+  margin-top: 5vh;
+}
+.main-image {
+  margin: 2vh;
+  width: 85.98vw;
+  height: 63vh;
+  background: #000000;
+  border-radius: 20px;
+}
+.main-image img {
+  width: 85.98vw;
+  height: 63vh;
+}
+.heading2 {
+  padding-top: 7vh;
+}
+.content {
+  display: grid;
+  grid-template: "1fr 1fr 1fr 1fr 1fr";
+  background: #2f8ae4;
+  width: 85.93%;
+  justify-content: space-evenly;
+  border-radius: 25px;
+  margin-top: 3vh;
+}
+.content div {
+  margin: 6.5vh;
+}
+.content div img {
+  width: 100%;
+}
+.content div p {
+  text-align: center;
+  font-family: nunito;
+  font-weight: bold;
+  color: #005ab2;
+}
+.content div p:hover {
+  color: white;
+}
+.bottom-section {
+  width: 85.93%;
+  height: 53vh;
+  display: grid;
+  grid-template: "2fr 2fr 1fr 1fr";
+  justify-content: space-evenly;
+  background: #377dc8;
+  border-radius: 20px;
+  margin-top: 7vh;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+}
+.other-links {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2vw;
+  margin-top: 8vh;
+}
+.other-links a {
+  text-decoration: none;
+  color: white;
+  font-family: nunito;
+}
+.about {
+  padding-top: 2vh;
+}
+
+.company,
+.resources,
+.classes,
+.social {
+  margin-top: 5vh;
+}
+.footer {
+  background: #377dc8;
+  width: 85.93%;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 12px;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+.footer p {
+  display: inline-block;
+  font-family: nunito;
+  color: #000;
+  margin: auto;
+  text-align: left;
+  flex: 1;
+  padding-left: 1vw;
+}
+.footer div {
+  padding-right: 1vw;
+}
